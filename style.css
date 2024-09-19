@@ -1,2 +1,15 @@
-header { font-size: 50px;
+header { 
+    font-size: 50px;
 justify-content: center;}
+
+
+
+.one {background-color: orangered;}
+.two {background-color: orange;}
+.three {background-color: orangered;}
+.four {background-color: orange;}
+
+footer {color: white;
+    background-color: #1F2937;
+align-content: center;
+justify-content: flex-end;}
