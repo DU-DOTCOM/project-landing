@@ -3,10 +3,31 @@ header {
 justify-content: center;}
 
 
+.alien1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 10%;
+}
+.alien2 {
+    display: flex;
+    width: 10%;
+    flex-direction: row;
+
+}
+.flex-container {
+    background-color: yellowgreen;
+    justify-content: flex-start;
+    flex-direction: row;
+}
 
 .one {background-color: orangered;}
-.two {background-color: orange;}
+
+.two {background-color: orange;
+    flex-direction: row;}
+
 .three {background-color: orangered;}
+
 .four {background-color: orange;}
 
 footer {color: white;
