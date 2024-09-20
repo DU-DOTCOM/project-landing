@@ -9,19 +9,18 @@ justify-content: center;}
         margin-right: auto;
         width: 10%;
 }
-.alien2 {
-    display: flex;
+
+
+.row .alien2 {
+    display: inline-block;
+
+    margin-left: 10%;
+    margin-right: auto;
     width: 10%;
-    flex-direction: row;
-
-}
-.flex-container {
-    background-color: yellowgreen;
-    justify-content: flex-start;
-    flex-direction: row;
 }
 
-.one {background-color: orangered;}
+.one {background-color: #ffe4dc;
+color: black;}
 
 .two {background-color: orange;
     flex-direction: row;}
@@ -30,7 +29,7 @@ justify-content: center;}
 
 .four {background-color: orange;}
 
-footer {color: white;
-    background-color: #1F2937;
+footer {color: black;
+background-color: #ffe4dc;
 align-content: center;
 justify-content: flex-end;}
