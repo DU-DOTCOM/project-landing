@@ -1,79 +1,130 @@
 header { 
+    color: white;
     background-color: #1F2937;
-    font-size: 50px;
-    font-display: center;
+    font-size: 20px;
     margin: auto;
-    padding: 1px;}
+    padding: 1px;
+    display: flex;
+    justify-content: space-around;}
+    
 
-
+.links {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content:flex-end;}
 
 .alien1 {
     block-size: 100px;
     position: absolute;
-    top: 100px;
-    right: 400px;}
+    top: 75px;
+    right: 500px;}
 
-
-.row .alien2 {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;}
-
-.names {
+.button1 {
+    font-size: 15px;
+    background-color: #3882F6 ;
+    color: white;
+    border-radius: 5px;
     display: block;
-    color: whitesmoke;
-}
+    margin-left: 25%;}
 
 .one {
-    background-color: #ffe4dc;
-    margin: auto;
-    padding: 1px;
-    color: black;
-}
-
-.two {
     color: white;
     background-color: #1F2937;
     margin: auto;
+    padding: 20px;}
+
+.one-text {
+    display:block;
+    margin-left: 25%;
+
+}
+
+.two {
+    color: black;
+    background-color: #ffffff;
+    margin: auto;
     padding: 1px;
-    flex-direction: row;}
+    }
+
+.two-text {
+    text-align: center;}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    }
+    
+ .image-container {
+    text-align: center;
+    margin: 10px;
+    }
+    
+ .alien2 {
+    width: 100px;
+    height: auto; 
+    }
+    
+ .names {
+    display: block;
+    margin-top: 10px;
+    font-size:25px;}
 
 .three {
     background-color: #E5E7Eb;
-     margin: auto;
+    height: 200px;
+    margin: auto;
     padding: 1px}
 
-.four {
-    background-color: #fff7e9;
-    margin: auto;
-    padding: 100px}
+.quote {
+    font-size: 36px;
+    font-family: 'Open Sans Light Italic', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #1F2937;
+    text-align: center;}
 
-.box {background-color: #3882F6;
+.author {
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    right: 400px;}
+
+.four {
+    background-color: white;
+    margin: auto;
+    padding: 50px;}
+
+.box {
+    background-color: #3882F6;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     width: 400px; 
     height: 70px; 
     border-radius: 8px; 
     margin: auto;
-    padding: 1px}
+    padding: 25px}
 
 .four .box {
     display: block;
     position: center;}
 
-.button {
+.button2 {
     font-size: 15px;
-    background-color: white;
-    color: black;
+    background-color: transparent;
+    color: white;
     border-radius: 5px;
-    border: 2px solid #000000;
+    border: 1px solid #ffffff;
     margin-top: 10px;}
 
 footer {
     color: whitesmoke;
     background-color: #1F2937;
-    align-content: center;
-    justify-content: flex-end;
+    display: block;
+    position: center;
+    text-align: center;
+    height: 20px;
     margin: auto;
-    padding: 1px}
+    padding: 20px;}
