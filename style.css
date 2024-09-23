@@ -1,56 +1,88 @@
-header { 
-    color: white;
-    background-color: #1F2937;
-    font-size: 20px;
-    margin: auto;
-    padding: 1px;
-    display: flex;
-    justify-content: space-around;}
-    
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Fonts/RobotoRegular-3m4L.ttf') format('truetype');
+}
 
-.links {
-    font-size: 15px;
+header {
+    display: block;
+    background-color: #1F2937;
+    padding: 50px;
+    margin: -10px;
+}
+
+.header-logo { 
     color: white;
-    display: flex;
-    justify-content:flex-end;}
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 300px;
+   }
+   
+.links a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+    display: inline-block;
+    margin: 0 50px;
+}
 
 .alien1 {
-    block-size: 100px;
-    position: absolute;
-    top: 75px;
-    right: 500px;}
+    block-size: 200px;
+    position: relative;
+    bottom: auto;
+}
 
 .button1 {
-    font-size: 15px;
-    background-color: #3882F6 ;
+    font-family: 'Roboto';
+    font-size: 25px;
+    background-color: #3882F6;
     color: white;
     border-radius: 5px;
     display: block;
-    margin-left: 25%;}
-
-.one {
-    color: white;
-    background-color: #1F2937;
-    margin: auto;
-    padding: 20px;}
-
-.one-text {
-    display:block;
-    margin-left: 25%;
-
+    margin: 10px auto;
+    padding: 5px 10px;
+    transition: ease-in;
 }
 
+.one {
+    background-color: #1F2937;
+    margin: -10px;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.one-text {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.one-subtext {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+
 .two {
+    font-family: 'Roboto';
     color: black;
     background-color: #ffffff;
-    margin: auto;
-    padding: 1px;
-    }
+    margin: -10px;
+    padding: 100px 200px;}
 
 .two-text {
-    text-align: center;}
+    font-family: 'Roboto';
+    text-align: center;
+    font-size: 50px;}
 
 .row {
+    font-family: 'Roboto';
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -62,11 +94,12 @@ header {
     }
     
  .alien2 {
-    width: 100px;
+    width: 200px;
     height: auto; 
     }
     
  .names {
+    font-family: 'Roboto';
     display: block;
     margin-top: 10px;
     font-size:25px;}
@@ -74,8 +107,8 @@ header {
 .three {
     background-color: #E5E7Eb;
     height: 200px;
-    margin: auto;
-    padding: 1px}
+    margin: -10px;
+    padding: 100px 200px;}
 
 .quote {
     font-size: 36px;
@@ -87,44 +120,49 @@ header {
 
 .author {
     color: black;
+    font-size: 37px;
     font-weight: bold;
     position: absolute;
     right: 400px;}
 
 .four {
     background-color: white;
-    margin: auto;
-    padding: 50px;}
+    padding: 100px 350px;}
 
 .box {
+    padding: 20px 120px;
     background-color: #3882F6;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    width: 400px; 
-    height: 70px; 
-    border-radius: 8px; 
-    margin: auto;
-    padding: 25px}
+    border-radius: 8px; }
 
-.four .box {
-    display: block;
-    position: center;}
+.box-text {
+    font-family: 'Roboto';
+    color: white;
+    text-align: left;
+    text-transform: uppercase;
+}
 
 .button2 {
-    font-size: 15px;
-    background-color: transparent;
+    font-family: 'Roboto';
+    font-size: 25px;
+    background-color: transparent ;
     color: white;
+    border-color: white;
     border-radius: 5px;
-    border: 1px solid #ffffff;
-    margin-top: 10px;}
+    position: relative;
+    left: 600px;
+    bottom: 50px;
+    transition: ease-in;}
 
-footer {
+
+.footer-text {
+    font-family: 'Roboto';
     color: whitesmoke;
+    position: relative;
+    text-align: center;
+}
+footer {
     background-color: #1F2937;
     display: block;
-    position: center;
-    text-align: center;
-    height: 20px;
-    margin: auto;
-    padding: 20px;}
+    height: 50px;
+    margin: -10px;
+    padding: 30px;}
